@@ -160,7 +160,7 @@ extern int audit_log_task_context(struct audit_buffer *ab);
 extern void audit_log_task_info(struct audit_buffer *ab,
 				struct task_struct *tsk);
 
-extern int		    audit_update_lsm_rules(void);
+
 
 				/* Private API (for audit.c only) */
 extern int audit_rule_change(int type, __u32 portid, int seq,
